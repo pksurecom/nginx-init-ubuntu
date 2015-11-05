@@ -398,7 +398,7 @@ case "$1" in
         $1
         ;;
     *)
-        FULLPATH=/etc/init.d/$PS
+        FULLPATH=/etc/init.d/nginx
         echo "Usage: $FULLPATH {start|stop|restart|force-reload|reload|status|configtest|quietupgrade|terminate|destroy}"
         echo "       The 'destroy' command should only be used as a last resort."
         exit 3
