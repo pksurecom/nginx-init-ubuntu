@@ -82,7 +82,7 @@ fi
 # Minimize path
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
-PS=${PS:-"nginx"}                             # process name
+PS=${PS:-"/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf"}                             # process name
 DESCRIPTION=${DESCRIPTION:-"Nginx Server..."} # process description
 NGINXPATH=${NGINXPATH:-/usr/local/nginx}      # root path where installed
 DAEMON=${DAEMON:-$NGINXPATH/sbin/nginx}       # path to daemon binary
